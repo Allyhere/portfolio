@@ -3,9 +3,11 @@ import React from 'react'
 function Landing() {
   return (
     <main>
-      <h1 className="title">Meu nome é Camilo Micheletto e esse é o meu site</h1>
-      <small className="subtext">Eu que fiz ele todo, usando código.</small>
-      <p className="text">Eu fiz esse site porque gosto de programar e gostaria que você, leitor ou leitora, me remunerasse para fazer isso pra ti. Sou um <strong>Desenvolvedor Front-end</strong> que mora em <strong>São Paulo, Brasil</strong>, meus pronomes são <strong>Ele/Dele</strong>, meus hobbies são <strong>cantar e sofrer por amor</strong>.</p>
+      <header className="[ full-bled ]">
+        <h1 className="title">Meu nome é Camilo Micheletto e esse é o meu site</h1>
+        <small className="subtext">Eu que fiz ele todo, usando código.</small>
+        <p className="text">Eu fiz esse site porque gosto de programar e gostaria que você, leitor ou leitora, me remunerasse para fazer isso pra ti. Sou um <strong>Desenvolvedor Front-end</strong> que mora em <strong>São Paulo, Brasil</strong>, meus pronomes são <strong>Ele/Dele</strong>, meus hobbies são <strong>cantar e sofrer por amor</strong>.</p>
+      </header>
       <section>
         <h2 className="subtitle">O que eu sei fazer</h2>
         <dl className="deflist">
@@ -19,7 +21,7 @@ function Landing() {
           <dd className="defcontent text">Serverless, automação e animação com P3/webGL.</dd>
         </dl>
       </section>
-      <section>
+      <section className="[ full-bled ]">
         <h2 className="subtitle">Mas você deve estar se perguntando:</h2>
         <div className="quote-container">
           <blockquote className="quote">Mas você já trampou com isso alguma vez?</blockquote>
@@ -64,7 +66,7 @@ function Landing() {
         <h2 className="title">Meus projetos</h2>
         <p className="text">Colocar projetos</p>
       </section>
-      <footer>
+      <footer className="[ full-bled ]">
         <h2 className="title">Gostasse? Entre em contato comigo</h2>
         <p className="text">Eu pensei em fazer um formulário para demonstrar que eu sei fazer formulários, porém eu prefiro que entrem em contato comigo pelo meu <a href="">Linkedin</a>, pois assim eu consigo conhecer um pouco de você também.</p>
         <h3 className="subtitle">Você também pode acompanhar um pouco do meu trabalho nos links abaixo:</h3>
