@@ -1,0 +1,18 @@
+@use '../base' as *;
+
+@each $font in map-keys($font-map) {
+  .#{unquote($font)} {
+    @include font-default($font, $font-map);
+  }
+}
+
+.highlight {
+  background:
+  linear-gradient(
+    120deg,
+    var(--clr-accent) 0%,
+    var(--clr-accent-aux) 100%
+  )
+  0 100% / 100% 1ch
+  no-repeat;
+}

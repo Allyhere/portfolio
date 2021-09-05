@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --clr-main: hsl(0deg, 0%, 98%);
+  --clr-accent: hsl(120deg, 55%, 70%);
+  --clr-accent-aux: hsl(300deg, 55%, 70%);
+  --clr-text: hsl(0deg, 0%, 15%);
+}
+
+$ft-poppins: 'Poppins', sans-serif;
+$ft-noto: 'Noto Sans', sans-serif;
+
+$font-map: (
+  "heading": ($ft-poppins, 2.9rem, bold, 1.2),
+  "title": ($ft-poppins, 1.5rem, bold, 1.2),
+  "subtitle": ($ft-poppins, 1.25rem, 200, 1.5),
+  "text": ($ft-noto, 1.05rem, 200, 1.5),
+  "subtext": ($ft-noto, 1rem, 200, 1.5),
+  "quote": ($ft-noto, 2rem, 200, 1.4),
+);

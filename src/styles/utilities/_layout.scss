@@ -1,1 +1,12 @@
-.full-bled { grid-column: 1 / -1; }
+.full-bled {
+  grid-column: 1 / -1; 
+  padding-inline: min(5ch, 5vmin);
+}
+
+.full-height { min-block-size: 100vh; }
+
+.stack {
+  display: grid;
+  place-content: center;
+  gap: var(--gap, 2ch);
+}

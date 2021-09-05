@@ -1,0 +1,18 @@
+.quote {
+  &__text {
+    text-align: center;
+  }
+  &__author {
+    text-align: end;
+    justify-self: end;
+  }
+  &-container {
+    display: grid;
+    place-items: center;
+    padding: 2ch 1ch;
+    margin: 2ch auto;
+    & > * {
+      max-width: 320px;
+    }
+  }
+}
