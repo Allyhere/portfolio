@@ -27,7 +27,7 @@ function Landing() {
           <blockquote className="quote__text [ quote ]">Mas você já trabalhou com isso alguma vez?</blockquote>
           <p className="quote__author [ subtext ]">- Você</p>
         </div>
-        <h3 className="[ subtitle ]">Essas são minhas experiências profissionais mais relevantes, mas você pode ver também o que as pessoas falam de mim no meu <a href="">Linkedin</a>.</h3>
+        <h3 className="[ subtitle ]">Essas são minhas experiências profissionais mais relevantes, mas você pode ver também o que as pessoas falam de mim no meu <a href="" className="[ link ]">Linkedin</a>.</h3>
         <details className="details">
           <summary className="[ title ]">Concrete Solutions, Accenture</summary>
           <p className="[ subtitle ]">Desenvolvedor Front-end</p>
@@ -44,7 +44,7 @@ function Landing() {
       </section>
       <section>
         <h2 className="[ title ]">Lugares que me ajudaram a saber o que sei hoje</h2>
-        <p className="[ subtext ]">Nessa lista tem os principais cursos que eu fiz, se você gostar <strong>muito</strong> de listas, tem uma bem extensa no meu <a href="">Linkedin</a></p>
+        <p className="[ subtext ]">Nessa lista tem os principais cursos que eu fiz, se você gostar <strong>muito</strong> de listas, tem uma bem extensa no meu <a href="" className="[ link ]">Linkedin</a></p>
         <ul className="list">
           <li className="list-item">
             <h3 className="[ subtitle ]">Le Wagon - Fullstack Web Development Bootcamp</h3>
@@ -68,20 +68,20 @@ function Landing() {
       </section>
       <footer className="[ full-bled ]">
         <h2 className="[ title ]">Gostasse? Entre em contato comigo</h2>
-        <p className="[ text ]">Eu pensei em fazer um formulário para demonstrar que eu sei fazer formulários, porém eu prefiro que entrem em contato comigo pelo meu <a href="">Linkedin</a>, pois assim eu consigo conhecer um pouco de você também.</p>
+        <p className="[ text ]">Eu pensei em fazer um formulário para demonstrar que eu sei fazer formulários, porém eu prefiro que entrem em contato comigo pelo meu <a href="" className=" [ link ]">Linkedin</a>, pois assim eu consigo conhecer um pouco de você também.</p>
         <h3 className="[ subtitle ]">Você também pode acompanhar um pouco do meu trabalho nos links abaixo:</h3>
         <ul className="list list--horizontal">
           <li className="list-item">
-            <a href="" className="[ text ]">Codepen</a>
+            <a href="" className="[ text link ]">Codepen</a>
           </li>
           <li className="list-item">
-            <a href="" className="[ text ]">Codewars</a>
+            <a href="" className="[ text link ]">Codewars</a>
           </li>
           <li className="list-item">
-            <a href="" className="[ text ]">DevTo</a>
+            <a href="" className="[ text link ]">DevTo</a>
           </li>
           <li className="list-item">
-            <a href="" className="[ text ]">Github</a>
+            <a href="" className="[ text link ]">Github</a>
           </li>
         </ul>
       </footer>

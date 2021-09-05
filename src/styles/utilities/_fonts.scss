@@ -16,3 +16,11 @@
   0 100% / 100% 1ch
   no-repeat;
 }
+
+.link {
+  color: var(--clr-accent-aux);
+  text-underline-offset: 3px;
+  &:hover {
+    color: var(--clr-accent-aux-dark);
+  }
+}
