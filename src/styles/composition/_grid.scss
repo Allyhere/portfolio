@@ -1,0 +1,12 @@
+body {
+  min-block-size: 100vh;
+}
+
+.grid {
+  display: grid;
+  gap: 3ch;
+  grid-template-columns: 1fr min(var(--size, 800px), 100%) 1fr;
+  & > * {
+    grid-column: 2;
+  }
+}

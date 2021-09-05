@@ -1,0 +1,10 @@
+.work {
+  display: grid;
+  gap: 2ch;
+  .subtitle {
+    max-width: 60ch;
+  }
+  details {
+    margin-block-start: 2ch;
+  }
+}

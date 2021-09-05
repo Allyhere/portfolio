@@ -1,0 +1,10 @@
+.header {
+  justify-self: start;
+  padding-inline-start: min(5ch, 5vmin);
+  &__title {
+    max-width: 25ch;
+  }
+  &__text {
+    max-width: 60ch;
+  }
+}
